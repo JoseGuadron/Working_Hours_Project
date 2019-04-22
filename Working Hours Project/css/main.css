@@ -1,0 +1,101 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+form{
+    background-color: #eee;
+    margin: 0 auto;
+    width: 400px;
+    padding: 20px;
+}
+#tabladiff{
+    background-color: rgb(255, 251, 0);
+
+
+}
+.labelname{ 
+font-size: 20;
+color: rgb(75, 75, 75);
+text-align: center;
+}
+.logoption{
+   
+}
+.separator{
+    margin-top: 20%;
+    background-color: aqua;
+
+}
+
+.running{
+    border: solid 0;
+    border-radius: 3px;
+}
+
+.running[type=text], .running[type=password]{
+    padding: 10px;
+    font-size: 18px;
+    outline: none;
+    width: 370px;
+    border-bottom-width: 2px;
+    border-bottom-style: dotted;
+    border-bottom-color: gold;
+}
+.running[type=submit]{
+    background-color: rgb(255, 187, 0);
+    color: rgb(255, 255, 255);
+    padding: 5px;
+    font-size:18px;
+    align-content: center;
+    align-items: center;
+    box-align: center;
+    align-self: center;
+
+    border: none;
+    width: 100px;
+}
+.center{
+    text-align: center;
+}
+
+.opcion{
+    padding: 5px 0;
+}
+
+.barra{
+    background-color:rgb(152, 196, 236);
+    border-radius: 4px;
+    padding: 10px;
+}
+
+.seleccionado{
+    background-color: rgb(252, 227, 0);
+    border-radius: 4px;
+    color: white;
+    padding: 10px;
+}
+
+#menu{
+    background-color: #eee;
+    padding: 10px;
+}
+#menu ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: inline-block;
+    width: 100%;
+}
+#menu ul li{
+    display: inline;
+}
+#menu ul li a{
+    color: rgb(255, 196, 0);
+    text-decoration: none;
+}
+#menu ul li a:hover{
+    color: rgb(227, 109, 30);
+    text-decoration: none;
+}
+.cerrar-sesion{
+    float: right;
+}
