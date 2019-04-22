@@ -1,0 +1,37 @@
+#LoginArea{
+
+	background: #f5f5f5;
+	border-style: ridge;
+	border-width: 2px;
+	border-color: #ffeb3b;
+}
+
+.tittle{
+	height: 100px;
+}
+
+body{
+	height: 600px;
+}
+
+.bottom{
+	height: 15%;
+}
+
+
+body a{
+	color: black;
+}
+
+
+body h2{
+  font-family: Verdana;
+  font-family: 'PT Sans';
+  font-weight: bold;
+}
+
+footer {
+    padding: 30px 0;
+    text-align: center;
+    background: #f5f5f5;
+}
